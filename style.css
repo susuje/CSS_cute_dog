@@ -1,0 +1,147 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: lightsteelblue;
+  }
+  
+  .dog {
+    position: relative;
+    margin: 100px auto;
+    width: 430px;
+    height: 430px;
+    background: lightsteelblue;
+  }
+  
+  .dog .ear .left .ear1{ 
+    position: absolute; 
+    top: 0px;
+    left: 55px;
+    width: 120px; 
+    height: 140px; 
+    border-radius: 25% 75% 50% 50% / 100% 78% 22% 0% ;
+    background: beige;
+  }
+  
+  .dog .ear .left .ear2{ 
+    position: absolute; 
+    top: 20px;
+    left: 75px;
+    width: 80px; 
+    height: 90px; 
+    border-radius: 25% 75% 50% 50% / 100% 78% 22% 0% ;
+    background: #F9CB9C;
+  }
+  
+  .dog .ear .right .ear1{ 
+    position: absolute; 
+    top: 0px;
+    left: 245px;
+    width: 120px; 
+    height: 140px; 
+    border-radius: 25% 75% 50% 50% / 100% 78% 22% 0% ;
+     transform: scaleX(-1);
+    background: beige;
+  }
+  
+  .dog .ear .right .ear2{ 
+    position: absolute; 
+    top: 20px;
+    left: 270px;
+    width: 80px; 
+    height: 90px; 
+     border-radius: 25% 75% 50% 50% / 100% 78% 22% 0% ;
+     transform: scaleX(-1);
+    background: #F9CB9C;
+  }
+  
+  .dog .face .face1{ 
+    position: absolute; 
+    top: 60px;
+    left: 50px;
+    width: 320px; 
+    height: 370px; 
+    border-radius: 50% 50% 50% 50% / 27% 27% 73% 73% ;
+    background: beige;
+  }
+  
+  .dog .tongue{ 
+    position: absolute; 
+    top: 350px;
+    left: 200px;
+    width: 50px; 
+    height: 100px; 
+    border-radius: 42% 58% 79% 21% / 79% 1% 99% 21%   ;
+    transform: scaleX(-1);
+    background: #E16666;
+  }
+  
+  .dog .mouth .left .mouth1{ 
+    position: absolute; 
+    top: 320px;
+    left: 138px;
+    width: 80px; 
+    height: 50px; 
+    border-radius: 100%;
+    background: black;
+  }
+  
+  .dog .mouth .left .mouth2{ 
+    position: absolute; 
+    top: 310px;
+    left: 138px;
+    width: 80px; 
+    height: 50px; 
+    border-radius: 100%;
+    background: beige;
+  }
+  
+  .dog .mouth .right .mouth1{ 
+    position: absolute; 
+    top: 320px;
+    left: 218px;
+    width: 80px; 
+    height: 50px; 
+    border-radius: 100%;
+    background: black;
+  }
+  
+  .dog .mouth .right .mouth2{ 
+    position: absolute; 
+    top: 310px;
+    left: 218px;
+    width: 80px; 
+    height: 50px; 
+    border-radius: 100%;
+    background: beige;
+  }
+  .dog .nose{ 
+    position: absolute; 
+    top: 300px;
+    left: 195px;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 100%;
+    background:black;
+  }
+  
+  .dog .eye .left{ 
+    position: absolute; 
+    top: 200px;
+    left: 120px;
+    width: 35px; 
+    height: 35px; 
+    border-radius: 100%;
+    background: black;
+  }
+  
+  .dog .eye .right{ 
+    position: absolute; 
+    top: 200px;
+    left: 270px;
+    width: 35px; 
+    height: 35px; 
+    border-radius: 100%;
+    background: black;
+  }
